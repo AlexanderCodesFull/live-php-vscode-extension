@@ -1,6 +1,8 @@
 # Live PHP extension for VS Code
 
-Live PHP is an extension that helps you automatically refresh UI or designs in PHP projects, which are not included by default. Additionally, it allows you to manage routes without having to manually type them into the browser, with simple configuration in your VS Code. [tutorial](https://youtube.com/qr).
+Live PHP is an extension that helps you automatically refresh UI or designs in PHP projects, which are not included by default. Additionally, it allows you to manage routes without having to manually type them into the browser, with simple configuration in your VS Code.
+
+[Tutorial video in Youtube](https://youtu.be/jCFgdr0tDf8)
 
 ## Features
 
@@ -37,15 +39,23 @@ Make necessary configurations to ensure proper functionality in your VS Code. Vi
 
 ## Usage
 
-Once you've verified the requirements and installed the extension, you can do the following or [View the full tutorial]().
+Once you've verified the requirements and installed the extension, you can do the following or [View the full tutorial](https://youtu.be/jCFgdr0tDf8)
 
 - File index.php - Before running any command you must create a file at the root of your project.
 
 - Start - Go to your VS Code command palette, search for or execute Start Live PHP this will open the browser on an available port on your computer.
 
+  <div style = "text-align:center">
+    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/menu-start.png" alt="index file create"  style="width:400px" >
+  </div>
+
 - Stop - Go to your VS Code command palette, search for or execute Stop Live PHP or open your terminal where running then close the Live PHP (PHP) terminal.
 
 - Change the name of the folder route handler for the browser - Go to your VS Code settings open json and write live-php.folderRouteWtach change its default value to custom name, then it will automatically change the watcher.
+
+   <div style = "text-align:center">
+    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/pages-folder.png" alt="folder route handler"  style="width:400px" >
+  </div>
 
 - Browser Refresh - To refresh just save the file or change the file with the command `Ctrl + S` on Windows or `Cmd + S` on Mac, then it will automatically refresh the browser.
 
@@ -55,6 +65,8 @@ You can configure the following:
 
 ```bash
   {
+    "files.autoSave": "onFocusChange",   // recomended config your vscode
+
     "live-php.showTerminal": "off",  //  "on"
     "live-php.folderRouteWatch": "pages"  // "custom-name"
   }
@@ -73,12 +85,6 @@ It is suggested to finish your project by running a PHP server (Apache or Nginx)
 It is suggested to stop the extension and execute the start live-php again if you want to view the terminal.
 
 If you encounter any issues or have any suggestions to improve the extension, please open an issue in the repository.
-
-## Donations
-
-If you find this extension useful and wish to support its development, consider making a donation:
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg)](https://buymeacoffee.com/tunombre)
 
 ## License
 
