@@ -46,7 +46,7 @@ Once you've verified the requirements and installed the extension, you can do th
 - Start - Go to your VS Code command palette, search for or execute Start Live PHP this will open the browser on an available port on your computer.
 
   <div style = "text-align:center">
-    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/menu-start.png" alt="index file create"  style="width:400px" >
+    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/menu-start.png" alt="index file create"  style="width:450px;" >
   </div>
 
 - Stop - Go to your VS Code command palette, search for or execute Stop Live PHP or open your terminal where running then close the Live PHP (PHP) terminal.
@@ -54,10 +54,14 @@ Once you've verified the requirements and installed the extension, you can do th
 - Change the name of the folder route handler for the browser - Go to your VS Code settings open json and write live-php.folderRouteWtach change its default value to custom name, then it will automatically change the watcher.
 
    <div style = "text-align:center">
-    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/pages-folder.png" alt="folder route handler"  style="width:400px" >
+    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/pages-folder.png" alt="folder route handler"  style="width:500px" >
   </div>
 
 - Browser Refresh - To refresh just save the file or change the file with the command `Ctrl + S` on Windows or `Cmd + S` on Mac, then it will automatically refresh the browser.
+
+   <div style = "text-align:center">
+    <img src="https://github.com/AlexanderCodesFull/live-php-vscode-extension/blob/main/src/images/usage/pages_usage_routes_reload.png" alt="folder route handler"  style="width:500px" >
+  </div>
 
 ## Configuration
 
